@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 
-import FormComponent from "../components/forms/FormComponent";
-import illustration from "../assets/illustration.svg";
+import FormComponent from "../components/Forms/HomeFrom";
+import illustration from "../assets/illustration.png";
 
-export function HomePage() {
+function HomePage() {
   const [isImageLoaded, setIsImageLoaded] = useState(false);
 
   useEffect(() => {
@@ -23,7 +23,7 @@ export function HomePage() {
             <img
               src={illustration}
               alt="CodeCollab"
-              className="mx-auto w-[250px] sm:w-[400px]"
+              className="mx-auto w-[350px] sm:w-[600px]"
             />
           )}
         </div>
@@ -34,3 +34,5 @@ export function HomePage() {
     </div>
   );
 }
+
+export default HomePage
