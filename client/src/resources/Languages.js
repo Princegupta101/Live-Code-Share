@@ -1,4 +1,4 @@
-import { loadLanguage, langNames } from "@uiw/codemirror-extensions-langs"
+import { loadLanguage, langNames } from "@uiw/codemirror-extensions-langs";
 
 const editorLanguages = {}
 

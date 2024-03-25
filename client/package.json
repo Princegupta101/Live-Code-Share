@@ -11,6 +11,12 @@
   },
   "dependencies": {
     "@iconify/react": "^4.1.1",
+    "@uiw/codemirror-extensions-color": "^4.21.25",
+    "@uiw/codemirror-extensions-hyper-link": "^4.21.25",
+    "@uiw/codemirror-extensions-langs": "^4.21.25",
+    "@uiw/codemirror-themes-all": "^4.21.25",
+    "@uiw/react-codemirror": "^4.21.24",
+    "file-saver": "^2.0.5",
     "jszip": "^3.10.1",
     "prettier": "^3.2.5",
     "prettier-plugin-tailwindcss": "^0.5.12",

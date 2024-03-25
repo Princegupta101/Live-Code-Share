@@ -16,18 +16,18 @@ function HomePage() {
   }, []);
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen p-4 sm:p-8 gap-16">
+    <div className="flex flex-col items-center justify-center min-h-screen min-w-screen p-4 sm:p-8 gap-16">
       <div className="flex flex-col items-center justify-center gap-8 sm:flex-row w-full">
         <div className="flex justify-center w-full sm:w-1/2">
           {isImageLoaded && (
             <img
               src={illustration}
               alt="CodeCollab"
-              className="mx-auto w-[350px] sm:w-[600px]"
+              className="mx-auto max-w-[350px] sm:max-w-[600px]"
             />
           )}
         </div>
-        <div className="flex flex-col justify-center w-full sm:w-1/2">
+        <div className="flex flex-col justify-center w-full  sm:w-[80%] md:w-1/2">
           <FormComponent />
         </div>
       </div>

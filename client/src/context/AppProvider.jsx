@@ -1,12 +1,15 @@
 import PropTypes from "prop-types"
 
-import AppContext from "./AppContext"
+import {AppContextProvider} from "./AppContext"
+import {FileContextProvider} from "./FileContext";
 
 function AppProvider({children}) {
   return (
-   <AppContext>
-        {children}
-   </AppContext>
+   <AppContextProvider>
+      <FileContextProvider>
+          {children}
+      </FileContextProvider>
+   </AppContextProvider>
   )
 }
 
