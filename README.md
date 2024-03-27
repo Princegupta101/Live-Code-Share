@@ -7,7 +7,7 @@ Live Code Share is a collaborative, real-time code editor where users can seamle
 - [Live](#Live Preview)
 - [Features](#features)
 - [Usage](#Usage)
-- [Tech Stack](#Tech Stack)
+- [Tech Stack](#TechStack)
 - [Installation](#installation)
 
 ## Live Preview
@@ -36,7 +36,7 @@ You can view the live preview of the project [here](#).
 3. Collaborate with others in real-time by editing code together.
 4. Utilize features such as syntax highlighting, code suggestions, and group chat for enhanced collaboration.
 
-## Tech Stack
+## TechStack
 
 - JavaScript
 - React
