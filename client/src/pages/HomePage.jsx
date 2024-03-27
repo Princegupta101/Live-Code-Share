@@ -22,7 +22,7 @@ function HomePage() {
           {isImageLoaded && (
             <img
               src={illustration}
-              alt="CodeCollab"
+              alt="Live-Code-Share"
               className="mx-auto max-w-[350px] sm:max-w-[600px]"
             />
           )}

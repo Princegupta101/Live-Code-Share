@@ -63,7 +63,7 @@ function FormComponent() {
 
              {/* Add heading and description */}
              
-            <h1 className="text-4xl sm:text-5xl">CodeCollab</h1>
+            <h1 className="text-4xl sm:text-5xl text-yellow-500 ">Live-Code-Share</h1>
             <p className="mb-4 text-center md:mb-8">
                 {"Code, Chat, Collaborate. It's All in Sync."}
             </p>
