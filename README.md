@@ -4,13 +4,13 @@ Live Code Share is a collaborative, real-time code editor where users can seamle
 
 ## Table of Contents
 
-- [Live](#Live Preview)
+- [Live](#Live-Preview)
 - [Features](#features)
 - [Usage](#Usage)
 - [Tech Stack](#TechStack)
 - [Installation](#installation)
 
-## Live Preview
+## Live-Preview
 
 You can view the live preview of the project [here](#).
 
