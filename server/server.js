@@ -1,4 +1,5 @@
 const express = require("express")
+
 const app = express()
 require("dotenv").config()
 const http = require("http")
@@ -14,8 +15,10 @@ const { Server } = require("socket.io")
 const server = http.createServer(app)
 const io = new Server(server, {
 	cors: {
-		origin: "*",
-	},
+		origin: 'http://localhost:5173',
+		methods: ['GET', 'POST'], // Specify the allowed HTTP methods
+		allowedHeaders: ['Content-Type', 'Authorization'], // Specify the allowed headers
+	  }
 })
 
 const userSocketMap = {}

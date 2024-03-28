@@ -1,10 +1,10 @@
 {
-	"name": "-server",
+	"name": "live-share-server",
 	"version": "1.0.0",
 	"description": "",
 	"main": "server.js",
 	"scripts": {
-		"dev": "node server.js",
+		"dev": "nodemon server.js",
 		"start": "node server.js",
 		"build": "npm install"
 	},
