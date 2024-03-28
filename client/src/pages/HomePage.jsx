@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-import FormComponent from "../components/forms/HomeFrom";
+import FormComponent from "../components/Forms/HomeFrom";
 import illustration from "../assets/illustration.png";
 
 function HomePage() {
