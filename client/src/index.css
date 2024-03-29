@@ -1,3 +1,83 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+body {
+    font-family: "Space Grotesk", sans-serif;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+
+    --sb-track-color: #3d404a;
+    --sb-thumb-color: #e1e1ffb3;
+    --sb-size: 6px;
+}
+
+::-webkit-scrollbar {
+    width: var(--sb-size);
+    height: var(--sb-size);
+}
+
+::-webkit-scrollbar-track {
+    background: var(--sb-track-color);
+    border-radius: 5px;
+    height: var(--sb-size);
+    width: var(--sb-size);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--sb-thumb-color);
+    border-radius: 5px;
+    height: var(--sb-size);
+}
+
+@supports not selector(::-webkit-scrollbar) {
+    body {
+        scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
+    }
+}
+
+@keyframes up-down {
+    0% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+/* Editor */
+
+.cm-editor {
+    max-height: 100vh;
+}
+
+.cm-editor .cm-scroller {
+    font-family: "Space Mono", monospace;
+    min-height: 100vh; /* Set horizontal scrollbar at bottom*/
+}
+
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    cursor: pointer;
+}
+
+.tab-height {
+    height: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .tab-height {
+        height: calc(100vh - 60px);
+    }
+
+    .cm-editor {
+        max-height: calc(100vh - 60px);
+    }
+
+    .cm-editor .cm-scroller {
+        min-height: calc(100vh - 60px);
+    }
+}

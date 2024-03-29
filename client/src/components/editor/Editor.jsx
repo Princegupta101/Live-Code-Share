@@ -6,6 +6,7 @@ import CodeMirror from "@uiw/react-codemirror"
 
 import AppContext from "../../context/AppContext"
 import FileContext from "../../context/FileContext"
+import usePageEvents from "../../hooks/usePageEvents"
 import { editorLanguages } from "../../resources/Languages"
 import { editorThemes } from "../../resources/Themes"
 import ACTIONS from "../../utils/action"
@@ -22,6 +23,8 @@ function Editor() {
         socket.emit(ACTIONS.FILE_UPDATED, { file, roomId })
     }
 
+     // Listen wheel event to zoom in/out and prevent page reload
+     usePageEvents()
 
     return (
         <CodeMirror
