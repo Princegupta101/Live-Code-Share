@@ -15,9 +15,7 @@ const { Server } = require("socket.io")
 const server = http.createServer(app)
 const io = new Server(server, {
 	cors: {
-		origin: 'https://live-code-share.vercel.app/',
-		methods: ['GET', 'POST'], // Specify the allowed HTTP methods
-		allowedHeaders: ['Content-Type', 'Authorization'], // Specify the allowed headers
+		origin: "*",
 	  }
 })
 
