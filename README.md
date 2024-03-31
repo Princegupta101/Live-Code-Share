@@ -12,7 +12,7 @@ Live Code Share is a collaborative, real-time code editor where users can seamle
 
 ## Live-Preview
 
-You can view the live preview of the project [here](#).
+You can view the live preview of the project [here](https://live-code-share.vercel.app/).
 
 ## Features
 
