@@ -101,7 +101,7 @@ npm run dev
 
 ## Contributing
 
-We welcome contributions to Pixel Slim! Feel free to create pull requests with your enhancements or bug fixes. Please ensure your contributions adhere to the coding style and conventions used in the project.
+We welcome contributions to  Live Code Share Feel free to create pull requests with your enhancements or bug fixes. Please ensure your contributions adhere to the coding style and conventions used in the project.
 
 ## Further-Support
 
