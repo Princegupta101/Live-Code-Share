@@ -2,6 +2,10 @@
 
 Live Code Share is a collaborative, real-time code editor where users can seamlessly code together. It provides a platform for multiple users to enter a room, share a unique room ID, and collaborate on code simultaneously.
 
+## VIDEO 
+
+https://youtu.be/MZYMNScnGBo
+
 ## Table of Contents
 
 - [Live](#Live-Preview)
@@ -9,6 +13,8 @@ Live Code Share is a collaborative, real-time code editor where users can seamle
 - [Usage](#Usage)
 - [Tech Stack](#TechStack)
 - [Installation](#installation)
+- [Contributing](#contributing)
+- [Further-Support](#further-support)
 
 ## Live-Preview
 
@@ -92,3 +98,11 @@ npm install
 ```bash
 npm run dev
 ```
+
+## Contributing
+
+We welcome contributions to Pixel Slim! Feel free to create pull requests with your enhancements or bug fixes. Please ensure your contributions adhere to the coding style and conventions used in the project.
+
+## Further-Support
+
+If you encounter any issues or have questions, feel free to raise them as GitHub issues, and we'll be happy to assist you.
