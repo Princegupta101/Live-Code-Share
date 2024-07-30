@@ -13,6 +13,7 @@ https://youtu.be/MZYMNScnGBo
 - [Usage](#Usage)
 - [Tech Stack](#TechStack)
 - [Installation](#installation)
+- [Low-Level-Diagram](#Low-Level-Diagram)
 - [Contributing](#contributing)
 - [Further-Support](#further-support)
 
@@ -98,6 +99,9 @@ npm install
 ```bash
 npm run dev
 ```
+## Low Level Diagram
+![diagram](low-level-diagram.png)
+
 
 ## Contributing
 
